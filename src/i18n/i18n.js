@@ -9,7 +9,7 @@ i18next
     .use(Backend)
     .init({
         debug: true,
-        fallbackLng: "en",
+        fallbackLng: "bn",
         returnObjects: true,
         interpolation: {
             escapeValue: false,
@@ -19,3 +19,5 @@ i18next
             caches: ["localStorage", "cookie"],
         },
     });
+
+export default i18next;

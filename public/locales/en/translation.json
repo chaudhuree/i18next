@@ -1,5 +1,5 @@
 {
-  "greeting": "Hello, {name}!",
+  "greeting": "Hello, <1>{{name}}</1>!",
   "blog": {
     "title": "5 Essential Tips for Managing a Successful Logistics Business",
     "description": "Running a logistics business requires strategic planning and efficient execution. In this blog, we discuss five essential tips to streamline your operations, improve efficiency, and ensure customer satisfaction. Learn how to leverage technology, optimize supply chains, and build a reliable team."
