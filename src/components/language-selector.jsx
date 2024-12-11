@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 const languages = [
   { code: "en", name: "English" },
   { code: "bn", name: "বাংলা" },
+  { code: "zh", name: "中文" },
 ];
 
 const LanguageSelector = () => {
