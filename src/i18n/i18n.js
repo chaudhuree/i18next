@@ -9,7 +9,9 @@ i18next
     .use(Backend)
     .init({
         debug: true,
-        fallbackLng: "bn",
+        fallbackLng: "en",
+        ns: ["translation", "about", "home", "dashboard"],
+        defaultNS: "translation",
         returnObjects: true,
         interpolation: {
             escapeValue: false,
